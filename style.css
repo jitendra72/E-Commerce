@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dsp {
+    background: radial-gradient(#d05f50);
+    height: 100vh;
+}
+
+.saini {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.menu a:last-child {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.col1 {
+    min-width: 300px;
+}
+
+.col1 p {
+    color: grey;
+    font-size: 18px;
+}
+
+.col1 h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 20px 0;
+}
+
+.col2 img {
+    width: 100%;
+}
+
+.btn {
+    background-color: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    border: none;
+}
+
+.btn:hover {
+    background: #563434;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+
+section h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.categories img {
+    max-width: 20%;
+    transition: 0.3s ease-in-out;
+}
+
+.categories img:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.feature img {
+    width: 180px;
+}
+
+.Product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+
+.feature {
+    color: grey;
+    transition: 0.3s ease-in-out;
+}
+
+.feature:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.feature h1 {
+    text-align: left;
+    color: #ff523b;
+    margin-bottom: 0;
+}
+
+.content {
+    /* background: radial-gradient(#fff, #ffd6d6); */
+    background: rgba(255, 166, 0, 0.252);
+    padding: 50px 0;
+    margin-top: 50px 0;
+}
+
+.col1 h1 {
+    text-align: left;
+}
+
+.col2 img {
+    mix-blend-mode: darken;
+    animation: shrink 3s infinite;
+}
+
+@keyframes shrink {
+    0% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
